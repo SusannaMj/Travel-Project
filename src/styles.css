@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: rgba(39, 32, 68, 1);
 }
 
 header {
@@ -106,6 +107,10 @@ footer li {
 
 section {
   max-width: 1200px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1500px;
   margin: 0 auto;
 }
 
