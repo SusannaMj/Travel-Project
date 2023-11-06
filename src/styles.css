@@ -213,7 +213,16 @@ section.secondary {
 }
 
 .image-responsive {
-  max-width: 100%;
+  width: 100%;
+}
+
+.card-header.grid-2-columns {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 @media (max-width: 1000px) {
   header {
@@ -266,5 +275,13 @@ section.secondary {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 25px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
