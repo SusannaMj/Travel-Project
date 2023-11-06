@@ -137,7 +137,7 @@ footer li {
 section {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px 50px;
 }
 .container {
   max-width: 1600px;
@@ -156,6 +156,10 @@ section {
 .grid-3-columns-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+
+.image-responsive {
+  max-width: 100%;
+}
 @media (max-width: 1000px) {
   header {
     padding: 60px 0px;
@@ -173,5 +177,39 @@ section {
   header a {
     padding: 16px;
     font-size: 10px;
+  }
+
+  main h2 {
+    font-size: 15px;
+  }
+  main h3 {
+    font-size: 20px;
+  }
+
+  main p {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  footer h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  footer p {
+    font-size: 13px;
+  }
+
+  footer a {
+    font-size: 13px;
+  }
+
+  section {
+    padding: 60px 50px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
   }
 }
